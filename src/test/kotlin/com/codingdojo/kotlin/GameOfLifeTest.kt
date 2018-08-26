@@ -10,4 +10,5 @@ class GameOfLifeTest {
         val gameOfLife = GameOfLife()
         Assertions.assertThat(gameOfLife.nexGeneration(arrayOf("*", ".", "."))).isEqualTo(arrayOf(".", ".", "."))
     }
+
 }
